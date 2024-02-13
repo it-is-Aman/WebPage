@@ -35,7 +35,7 @@ body {
 }
 
 #intro {
-    height: 50%;
+    height: 40%;
     width: 100%;
     /* background-color: burlywood; */
     padding: 50px 60px;
@@ -81,8 +81,8 @@ body {
 #about h3{
     width: 65%;
     padding: 20px 40px;
-    font-size:76px;
-    line-height: 86px;
+    font-size:97px;
+    line-height: 90px;
     font-weight: 400;
     letter-spacing: -2px;
 }
@@ -109,4 +109,74 @@ body {
     border-radius: 50px;
     padding: 10px;
     margin: 5px;
+}
+
+#work{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 40px 50px ;
+    border-top: 2px solid #000;
+}
+
+#work1{
+    width: 35%;
+    height: 100%;
+    padding: 5px 50px ;
+    border-right: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#work1 h3, i{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#work2{
+    width: 65%;
+    height: 100%;
+    padding: 0px 50px;
+}
+
+.work2_part{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.work2_part:nth-child(1){
+    border-bottom: 2px solid #000;
+    /* background-color: blue; */
+}
+
+.work2_part .elem{
+    height: 100%;
+    width: 50%;
+    padding: 0px 30px;
+    /* margin: 40px 40px; */
+}
+
+.work2_part .elem:nth-child(1){
+    border-right: 2px solid #000;
+    padding-right: 50px;
+    
+}
+.work2_part .elem:nth-child(2){
+    padding-left: 50px;
+    
+}
+
+.work2_part .elem h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.work2_part .elem p{
+    font-size: 18px;
+    color: #353434;
+    font-weight: 400;
 }
