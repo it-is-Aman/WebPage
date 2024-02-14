@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    padding: 40px 60px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-part1{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav h3, h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content{
+    margin-top: 60px;
+    padding: 30px 60px;
+}
+
+#content h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#content h4{
+    font-size: 200px;
+    font-weight: 500;
+    letter-spacing: -4px;
+    word-spacing: 10px;
+    line-height: 160px;
+}
+
+#case{
+    width: 100%;
+    margin-top: 150px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#case h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+}
+
+#projects{
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    gap: 40px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.img-prop{
+    background-color: rgb(231, 153, 153);    
+    height: 720px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#img1{
+    background-image: url(https://images.unsplash.com/photo-1698133224386-4728147a3c3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url(https://blog.frame.io/wp-content/uploads/2018/06/Project-Dashboard-cropped.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .part1 h3{
+    font-size: 40px;
+    font-weight: 550;
+}
+.bottom .part1 h4{
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(83, 67, 67);
+}
+
+.bottom .part2{
+    font-size: 25px;
+    padding: 13px 30px;
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+.bottom .part2:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
